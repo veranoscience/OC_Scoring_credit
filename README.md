@@ -16,7 +16,10 @@ tags:
   - monitoring
   - mlflow
 ---
-# Home Credit — MLOps Scoring API (FastAPI + Docker + CI/CD)
+# Home Credit - MLOps Scoring API (FastAPI + Docker + CI/CD)
+
+Système de scoring de risque de défaut, du modèle à la production. 
+L'enjeu n'est pas la performance brute du classifieur mais sa fiabilité dans le temps : un seuil de décision calé sur le coût métier des erreurs, et une surveillance de la dérive des données pour détecter quand le modèle cesse d'être valide.
 
 Sommaire:
 - **tracking & registry MLflow** (expérimentations + modèle final versionné),
